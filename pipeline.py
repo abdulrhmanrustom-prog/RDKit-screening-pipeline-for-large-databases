@@ -12,9 +12,9 @@ warnings.filterwarnings("ignore", message="to-Python converter for class boost::
 INPUT_FILE = "data set.csv"        #your file with any format supported by workflow
 OUTPUT_CSV = "ranked_results.csv"
 OUTPUT_SDF = "filtered_results.sdf"
-SCAFFOLD_LIMIT = 3
-MAX_MOLS = 50000
-PRINT_EVERY = 5000
+SCAFFOLD_LIMIT = 3   #can be changed 
+MAX_MOLS = 10000000   #can be changed
+PRINT_EVERY = 5000 
 # ----------------------------
 
 
